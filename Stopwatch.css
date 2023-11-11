@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: lightgreen;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+.stopwatch{
+    border-color:black;
+    padding: 20px 24px ;
+    border-radius: 10px;
+   ;
+}
+.timerDisplay{
+    background-color:olivedrab;
+    font-size: 55px;
+    font-weight: bold;
+    border-radius: 0.1em;
+}
+.button{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: black;
+    padding: 12px 24px ;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+
